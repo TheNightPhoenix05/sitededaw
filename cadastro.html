@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pokémon.com/cadastro</title>
+	<link rel="icon" type="image/png" href="avatar.png">
+</head>
+<body style="background-image: url(https://wallpapercave.com/wp/wp3961274.jpg);">
+
+	<nav class="navbar navbar-inverse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Início</a></li>
+      <li><a href="cadastro.html">Cadastre-se</a></li>
+      <li><a href="mewtwo.html">Conheça Meu Pokémon Favorito</a></li>
+    </ul>
+  	</div>
+	</nav>
+
+	<h1 align="center" style="background-color: whitesmoke;">Cadastro de Visitantes do Site HTML</h1>
+
+	<form  style="background-color: whitesmoke;">
+		<fieldset>
+		<legend><i>Dados Pessoais<b></legend>
+		<br>
+		<br>
+		<br>
+
+		Nome:<br>
+		<input type="text" minlength="3" maxlength="30" name="nome" required placeholder="Digite seu Nome" size="40"><br>
+
+		<br>
+
+		Idade:<br>
+		<input type="number" min="18" max="60" name="idade" required placeholder="Digite sua Idade" size="40">
+
+		<br><br>
+
+		Data de Nascimento:<br>
+		<input type="date" name="date" id="date" required>
+
+		<br><br>
+
+		Sexo:<br>
+		Feminino<input type="radio" id="sexo" name="sexo" value="F">
+		Masculino<input type="radio" id="sexo" name="sexo" value="M">
+		Outro<input type="radio" id="sexo" name="sexo" value="O">
+		Prefiro Não Responder<input type="radio" id="sexo" name="sexo" value="PN" checked>
+
+		<br>
+		<br>
+		<br>
+		<label for="cor">Cor do seu Pokémon Favorito:</label><br>
+		 		<input type="color" name="corsleeve" id="colorsleeve" value="blueviolet">
+			<br><br>
+		 		<label>O quão você gosta de pokémon?</label><br>
+		 		0%<input type="range" min="0" max="100" value="30" id="capacitacao" name="capacitacao">100%
+		 		<br> 	
+
+	</fieldset>
+
+		<fieldset>
+		 		<legend><small><b>Dados Profissionais</b></small></legend>
+
+		 		
+
+		 		<br>
+
+		 		<label for="formacao">Formação:</label>
+		 		<select id="formacao" name="formacao">
+		 			<optgroup>
+		 			<option>Estou na Escola</option>
+		 			<option>Estou no Ensino Médio</option>
+		 			<option>Estou na Faculdade</option>
+		 			<option>Terminei a Faculdade</option>
+		 			</optgroup>
+		 			<optgroup label="pós-faculdade">
+		 			<option>Tenho Mestrado</option>
+		 			<option>Tenho Doutorado</option>
+		 			<option>Tenho Pós-Doutorado</option>
+		 			</optgroup>
+		 		</select>
+
+		 		<br><br>
+
+		 		<label for="conhecimento">Conhecimento:</label>
+		 		<input type="text" name="conhecimento" id="conhecimento" list="lista">
+		 		<br>
+		 		<datalist id="lista">
+		 			<option value="Medicina">Medicina</option>
+		 			<option value="Arquitetura">Arquitetura</option>
+		 			<option value="Mecanica">Mecanica</option>
+		 			<option value="Enfermagem">Enfermagem</option>
+		 			<option value="Geologia">Geologia</option>
+		 			<option value="Filosofia">Filosofia</option>
+		 			<option value="Engenharia">Engenharia</option>
+		 			<option value="Letras">Letras</option>
+		 			<option value="Nada">Nada</option>
+		 		</datalist>
+		 		<br>
+		</fieldset>
+		 		<br>
+		 		<br>
+
+		
+		<fieldset>
+			<legend><small><b>Contato:</b></small></legend>
+
+			<br><br>
+			<label for="mensagem">Opinião do site(o que tá bom e o que pode melhorar):</label><br>
+			<textarea id="mensagem" name="mensagem" cols="50" rows="5" maxlength="100"></textarea>
+
+			<br><br>
+			E-mail:<br>
+		  <input type="email" minlength="10" maxlength="25" name="email" placeholder="Digite seu E-Mail" size="40">
+
+		  <br><br>
+		
+		</fieldset>
+
+		<br><br><br><br>
+	<input type="submit" value="Cadastrar">
+	<input type="reset" value="Limpar">
+		</fieldset>
+
+	</form>
+
+
+	<br><br>
+	<table border="1px" style="border-color: blueviolet;">
+        <tr>
+            <th>Assinantes Anuais</th>
+            <th>Preço pago ao Ano</th>
+            <th>Código de Assinatura</th>
+        </tr>
+
+        <tr>
+            <td>Bruno Jefte The King</td>
+            <td>Grátis</td>
+            <td>01</td>
+        </tr>
+
+        <tr>
+            <td>João Denny</td>
+            <td>R$1.000,00</td>
+            <td>002</td>
+        </tr>
+
+        <tr>
+            <td>Adryan Adryan</td>
+            <td>R$67,00</td>
+            <td>067</td>
+        </tr>
+	</table>
+
+
+	<style>
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+img {
+	width: 50%;
+}
+</style>
+</body>
+</html>
